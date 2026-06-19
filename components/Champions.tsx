@@ -5,22 +5,22 @@ import Image from 'next/image';
 const champions = [
   {
     name: 'Andrea Allen',
-    title: 'World Barista Champion',
-    image: 'https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=600&q=80',
-    bio: 'Three-time US Barista Champion and 2023 World Champion. Andrea brings precision, storytelling, and unparalleled technical skill to every competition.',
+    title: 'Co-Founder & US Barista Champion',
+    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=80',
+    bio: 'Co-Founder & Director of Hospitality at Onyx. Working in coffee since 2002. 2020 US Barista Champion and 2022 World Barista Runner-Up. Andrea brings precision, operational excellence, and a deep love for the people of coffee to everything she does.',
     stats: [
-      { value: '3x', label: 'US Champion' },
-      { value: '2023', label: 'World Champion' },
+      { value: '2020', label: 'US Champion' },
+      { value: '2022', label: 'World Runner-Up' },
     ],
   },
   {
     name: 'Morgan Eckroth',
-    title: 'US Barista Champion',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80',
-    bio: '2022 US Barista Champion. Known for innovative flavor profiling and a deep commitment to sustainability and transparency in coffee sourcing.',
+    title: 'US Barista Champion & Content Creator',
+    image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=600&q=80',
+    bio: '2022 US Barista Champion and World Barista Runner-Up. Known as MorganDrinksCoffee to millions of followers. Morgan makes specialty coffee accessible through content, education, and an unwavering commitment to the craft.',
     stats: [
       { value: '2022', label: 'US Champion' },
-      { value: '100+', label: 'Recipes Created' },
+      { value: '7M+', label: 'Followers' },
     ],
   },
 ];
