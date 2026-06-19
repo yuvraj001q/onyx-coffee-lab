@@ -6,7 +6,7 @@ const champions = [
   {
     name: 'Andrea Allen',
     title: 'Co-Founder & US Barista Champion',
-    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=80',
+    image: 'https://storage.ghost.io/c/fe/59/fe5955ce-11a9-48c2-837e-6927d128a3ea/content/images/2024/10/242348584_6221519084588960_8544090912778890936_n.jpg',
     bio: 'Co-Founder & Director of Hospitality at Onyx. Working in coffee since 2002. 2020 US Barista Champion and 2022 World Barista Runner-Up. Andrea brings precision, operational excellence, and a deep love for the people of coffee to everything she does.',
     stats: [
       { value: '2020', label: 'US Champion' },
