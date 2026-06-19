@@ -1131,3 +1131,126 @@ input, select, textarea { font-family: inherit; }
 @media (max-width: 480px) {
   .time-slots { grid-template-columns: repeat(3, 1fr); }
 }
+
+/* ==================== COMPREHENSIVE RESPONSIVE ==================== */
+
+/* --- Tablet (768px–1024px) --- */
+@media (max-width: 1024px) {
+  .container { padding: 0 20px; }
+  .about { padding: 80px 0; }
+  .locations { padding: 80px 0; }
+  .champions { padding: 80px 0; }
+  .transparency { padding: 80px 0; }
+  .footer { padding: 48px 0 24px; }
+}
+
+/* --- Mobile Landscape & Small Tablets (640px–768px) --- */
+@media (max-width: 768px) {
+  .hero__content { padding-top: 100px; padding-bottom: 60px; }
+  .hero__title { letter-spacing: -1px; }
+  .hero__desc { font-size: 1rem; }
+
+  .section-header { margin-bottom: 40px; }
+
+  .about__grid { gap: 40px; }
+  .about__stats { gap: 16px; }
+  .about__stat { padding: 16px; }
+  .about__stat-number { font-size: 1.5rem; }
+
+  .champions__grid { gap: 40px; margin-top: 40px; }
+  .champion-card__name { font-size: 1.5rem; }
+
+  .transparency__grid { margin-top: 40px; }
+
+  .modal { max-width: 100%; border-radius: 16px; }
+  .modal__header { padding: 32px 24px 20px; }
+  .modal__body { padding: 0 24px 24px; }
+  .confirmation { padding: 32px 24px; }
+
+  .navbar__user span:not(.navbar__user-avatar) { display: none; }
+
+  .footer__top { gap: 32px; }
+}
+
+/* --- Mobile Portrait (480px–640px) --- */
+@media (max-width: 640px) {
+  .hero { min-height: 90vh; }
+  .hero__content { padding-top: 80px; }
+  .hero__ctas { flex-direction: column; align-items: stretch; gap: 12px; }
+  .hero__ctas .btn { width: 100%; }
+
+  .about { padding: 60px 0; }
+  .about__grid { grid-template-columns: 1fr; gap: 32px; }
+  .about__image { aspect-ratio: 16/10; }
+  .about__stats { grid-template-columns: 1fr 1fr; }
+
+  .locations { padding: 60px 0; }
+  .locations__grid { gap: 24px; margin-top: 32px; }
+
+  .champions { padding: 60px 0; }
+  .champion-card { grid-template-columns: 1fr; gap: 20px; }
+  .champion-card:nth-child(even) { direction: ltr; }
+  .champion-card__image { aspect-ratio: 16/10; }
+  .champion-card__stats { gap: 16px; }
+
+  .transparency { padding: 60px 0; }
+  .transparency__grid { gap: 16px; }
+  .metric-card { padding: 24px 16px; }
+
+  .time-slots { grid-template-columns: repeat(3, 1fr); gap: 6px; }
+  .time-slot { padding: 6px; font-size: 0.75rem; }
+
+  .footer__top { grid-template-columns: 1fr 1fr; gap: 24px; }
+}
+
+/* --- Small Mobile (320px–480px) --- */
+@media (max-width: 480px) {
+  .container { padding: 0 16px; }
+  .hero { min-height: 85vh; }
+  .hero__content { padding-top: 72px; padding-bottom: 48px; }
+  .hero__title { font-size: clamp(2.2rem, 8vw, 3rem); letter-spacing: -1px; }
+  .hero__label { font-size: 0.6rem; letter-spacing: 2px; margin-bottom: 24px; }
+  .hero__desc { font-size: 0.9rem; margin-bottom: 32px; line-height: 1.7; }
+  .hero__scroll { display: none; }
+  .btn--lg { padding: 14px 28px; font-size: 0.8rem; }
+
+  .about { padding: 48px 0; }
+  .about__image { aspect-ratio: 4/3; }
+  .about__stat-number { font-size: 1.3rem; }
+  .about__stat-label { font-size: 0.7rem; }
+
+  .locations { padding: 48px 0; }
+  .location-card__body { padding: 20px; }
+  .location-card__title { font-size: 1.3rem; }
+
+  .champions { padding: 48px 0; }
+  .champion-card__name { font-size: 1.3rem; }
+  .champion-card__bio { font-size: 0.85rem; }
+  .champion-card__image { aspect-ratio: 3/2; }
+
+  .transparency { padding: 48px 0; }
+  .metric-card__value { font-size: 1.3rem; }
+  .metric-card__label { font-size: 0.75rem; }
+
+  .modal { border-radius: 12px; margin: 12px; }
+  .modal__header { padding: 24px 20px 16px; }
+  .modal__title { font-size: 1.4rem; }
+  .modal__body { padding: 0 20px 20px; }
+  .confirmation { padding: 24px 20px; }
+  .confirmation__number { font-size: 1.1rem; }
+  .confirmation__detail { font-size: 0.8rem; flex-direction: column; gap: 2px; }
+
+  .navbar__logo { font-size: 1.1rem; }
+  .navbar__logo-mark { width: 28px; height: 28px; font-size: 0.6rem; }
+  .navbar__actions { gap: 8px; }
+  .navbar__user { padding: 4px 10px; font-size: 0.75rem; }
+  .navbar__user-avatar { width: 20px; height: 20px; font-size: 0.55rem; }
+
+  .footer { padding: 40px 0 20px; }
+  .footer__top { grid-template-columns: 1fr; gap: 24px; padding-bottom: 24px; }
+  .footer__brand-text { font-size: 0.8rem; max-width: 100%; }
+  .footer__col-title { margin-bottom: 12px; }
+  .footer__col li { margin-bottom: 8px; }
+  .footer__col a { font-size: 0.8rem; }
+  .footer__bottom { padding-top: 20px; }
+}
