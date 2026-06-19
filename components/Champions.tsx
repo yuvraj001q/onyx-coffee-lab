@@ -16,7 +16,7 @@ const champions = [
   {
     name: 'Morgan Eckroth',
     title: 'US Barista Champion & Content Creator',
-    image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=600&q=80',
+    image: 'https://www.baristamagazine.com/wp-content/uploads/2023/03/morg.jpg',
     bio: '2022 US Barista Champion and World Barista Runner-Up. Known as MorganDrinksCoffee to millions of followers. Morgan makes specialty coffee accessible through content, education, and an unwavering commitment to the craft.',
     stats: [
       { value: '2022', label: 'US Champion' },
